@@ -18,8 +18,10 @@ with
 import tensorflow.compat.v1 as tf  
 tf.disable_v2_behavior()  
 
-The factorization of PIF is from NCF
-https://github.com/hexiangnan/neural_collaborative_filtering
+The factorization of PIF is from NCF  
+https://github.com/hexiangnan/neural_collaborative_filtering  
+Another simpler way to factorize PIF, run the following code:  
+python mf.py --dataset instacart
 
 To train the model and test, go the Model folder and run the following command:  
 python Main.py --model_type fender --dataset instacart --gpu_id 0
