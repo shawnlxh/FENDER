@@ -1,7 +1,7 @@
 # KDD2022 submission  
 
 The source code of FENDER.  
-The model is developed by Tensorflow 1.12.  
+The model is developed by Tensorflow 1.12. Implementation collaborated with Zheng Liu.    
 
 Data:  
 instacart:  
